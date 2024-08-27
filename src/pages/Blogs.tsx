@@ -14,9 +14,13 @@ const Blogs = () => {
         </div>
         <div className="flex justify-center">
           <div className="flex justify-center w-3/5 flex-col">
-            {blogs.map(() => (
-              <BlogsSkeleton />
-            ))}
+            <BlogsSkeleton />
+            <BlogsSkeleton />
+            <BlogsSkeleton />
+            <BlogsSkeleton />
+            <BlogsSkeleton />
+            <BlogsSkeleton />
+            <BlogsSkeleton />
           </div>
         </div>
       </div>
